@@ -1,3 +1,7 @@
+// ============================================================
+// Given array and an index into array, remove and return the array value at that index. Do this without using any built-in array methods except pop().
+// ============================================================
+
 Array.prototype.removeAt = function (index) {
     if (this.length === 0) {return this}
     if (this.length === 1) {return this.pop()}

@@ -1,3 +1,7 @@
+// ============================================================
+// Given array, remove and return the value as the beginning of the array. Do this without using any built-in array methods except pop()
+// ============================================================
+
 Array.prototype.popFront = function () {
     if (this.length === 0) {return this}
     if (this.length === 1) {return this.pop()}
